@@ -1,0 +1,47 @@
+
+body {
+    background-color: #1abc9c;
+}
+
+.login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+
+.login-form{
+    width: 400px;
+    height: 300px;
+}
+.login-form .login-field-icon {
+    top:0;
+}
+.from-group-name{
+    margin-top: 30px;
+}
+.from-group-pass{
+    margin-top: 20px;
+}
+.btn-primary {
+    color: #ffffff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    margin-top: 30px;
+}
+
+.btn-primary:hover,btn-primary:visited {
+    color: #ffffff;
+    background-color: #4bbc9a;
+    border-color: #4bbc9a;
+}
+.from-group-name{
+    margin-top: 30px;
+}
+.from-group-pass{
+    margin-top: 20px;
+}
+.checkbox{
+    color:#000 ;
+}
