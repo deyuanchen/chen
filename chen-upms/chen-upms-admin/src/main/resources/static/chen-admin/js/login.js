@@ -7,7 +7,7 @@ $(function() {
         login();
     });
     // 回车事件
-    $('#username, #password').keypress(function (event) {
+    $('#login-name, #login-pass').keypress(function (event) {
         if (13 == event.keyCode) {
             login();
         }
@@ -18,8 +18,8 @@ function login() {
         url: '/sso/login',
         type: 'POST',
         data: {
-            username: $('#username').val(),
-            password: $('#password').val(),
+            username: $('#login-name').val(),
+            password: $('#login-pass').val(),
             rememberMe: $('#rememberMe').is(':checked'),
             
         },

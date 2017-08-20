@@ -1,5 +1,6 @@
 package com.chen.upms.admin.controller;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -18,6 +19,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @version: 1.0
  */
 @Controller
+@RequestMapping("/manage")
+@Api(value = "后台管理", description = "后台管理")
 public class ManageController {
     /**
      * 后台首页
